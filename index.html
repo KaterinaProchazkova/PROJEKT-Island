@@ -5,175 +5,260 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cestování po Islandu</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Raleway:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
 
 	<!-- hlavička -->
+	<header class="bg-images">
 
-	<h1>Island</h1>
+		<div class="hero">
 
-	<p>Když se řekne Island, spoustě lidem se jako první vybaví sníh a led. Sama jsem tam strávila téměř rok života a zem pokrytou sněhem a ledem jsem zažila jen jediný den. Jednou věcí si ale jistá jsem: že návštěva ostrova pod polárním kruhem je pro každého tak silným zážitkem, že se sem bude chtít vrátit.</p>
+			<h1 class="hero__title">Island</h1>
 
-	<p>Jana Zcela Vymyšlená</p>
+			<p class="hero__text">Když se řekne Island, spoustě lidem se jako první vybaví sníh a led. Sama jsem tam strávila téměř rok života a zem pokrytou sněhem a ledem jsem zažila jen jediný den. Jednou věcí si ale jistá jsem: že návštěva ostrova pod polárním kruhem je pro každého tak silným zážitkem, že se sem bude chtít vrátit.</p>
 
+			<p class="hero__signature">Jana Zcela Vymyšlená</p>
+			
+		</div>
 
+	</header>
 
-	<!-- menu -->
+	<main>
 
-	<ul>
-		<li><a href="#">Úvod</a></li>
-		<li><a href="#">Proč jet na Island</a></li>
-		<li><a href="#">Co musíte vidět</a></li>
-		<li><a href="#">Fotogalerie</a></li>
-	</ul>
+		<section class="grid-top">
 
+			<!-- menu -->
+			<nav class="menu">
+				<ul class="menu__nav">
+					<li class="menu__item menu__item--border-r"><a class="menu__link" href="#uvod">Úvod</a></li>
+					<li class="menu__item menu__item--border-r"><a class="menu__link" href="#procIsland">Proč jet na Island</a></li>
+					<li class="menu__item menu__item--border-r"><a class="menu__link" href="#coVidet">Co musíte vidět</a></li>
+					<li class="menu__item"><a class="menu__link" href="#fotogalerie">Fotogalerie</a></li>
+				</ul>
+			</nav>
 
-	<!-- sekce Úvod -->
+			<!-- sekce Úvod -->
+			<div class="block-text" id="uvod">
+				<p>Island je jeden z nejpozoruhodnějších kousků pevniny, který v Evropě můžete navštívit. Neuchvátí jenom fotografy - krajináře, ale snad každého, kdo miluje divokou přírodu. Ne nadarmo se také říká, že si jej při první návštěvě zamilujete a budete se muset stále vracet. Byl to i můj případ!</p>
 
-	<p>Island je jeden z nejpozoruhodnějších kousků pevniny, který v Evropě můžete navštívit. Neuchvátí jenom fotografy - krajináře, ale snad každého, kdo miluje divokou přírodu. Ne nadarmo se také říká, že si jej při první návštěvě zamilujete a budete se muset stále vracet. Byl to i můj případ!</p>
+				<p>Rád bych popsal některá místa, která prostě při návštěvě nemůžete vynechat. Není ani důvod, jejich dostupnost je výborná díky hlavní okružní cestě, po které pohodlně celý ostrov za několik dní objedete bez toho, abyste museli zajíždět do hůře dostupného vnitrozemí. I tam je samozřejmě spousta dech beroucích míst, ale za pár dní se stihnout bohužel vše nedá.</p>
 
-	<p>Rád bych popsal některá místa, která prostě při návštěvě nemůžete vynechat. Není ani důvod, jejich dostupnost je výborná díky hlavní okružní cestě, po které pohodlně celý ostrov za několik dní objedete bez toho, abyste museli zajíždět do hůře dostupného vnitrozemí. I tam je samozřejmě spousta dech beroucích míst, ale za pár dní se stihnout bohužel vše nedá.</p>
+				<p>Když máte to štěstí a zrovna nesoptí některá z místních sopek, nabízí tento vulkanicky nejaktivnější ostrov Evropy úžasné pohledy, které prostě jinde nemáte šanci spatřit. Pro Středoevropana, suchozemce je to úplně jiný svět.</p>
+			</div>
 
-	<p>Když máte to štěstí a zrovna nesoptí některá z místních sopek, nabízí tento vulkanicky nejaktivnější ostrov Evropy úžasné pohledy, které prostě jinde nemáte šanci spatřit. Pro Středoevropana, suchozemce je to úplně jiný svět.</p>
+		</section>
 
+		<section class="grid block-image">
 
-	<img src="images/island1.jpg" alt="Island">
-	<p>Photo &copy; <a href="https://flic.kr/p/yFnyAT">Moyan Brenn</a></p>
+			<img class="block-image__img" src="images/island1.jpg" alt="Island">
 
+			<div class="block-image--position">
+				<p class="block-image__text">Photo &copy; <a class="block-image__link" href="https://flic.kr/p/yiAg2h">Moyan Brenn</a></p>
+			</div>
 
-	<!-- sekce Proč -->
+		</section>
 
-	<h2>Proč jet na Island</h2>
+		<section class="grid-text block-text" id="procIsland"> 
 
-	<p>Island je domovem největšího evropského ledovce, vodopádu s nejmohutnějším průtokem a tisíců místních koní a divokých hus, které majestátně ve dvojicích křižují nebe a dokreslují tak neopakovatelnou atmosféru tohoto pozoruhodného kousku pevniny kdesi v Atlantiku. K tomu mohutné skalní útvary, čnící z moře jako tiší strážci místních černých lávových pláží, stovky metrů vysoké útesy, které jsou domovem racků a papuchalků a především obrovské vodopády všeho druhu. Panují tu trochu jiná měřítka, a to téměř ve všem.</p>
+			<!-- sekce Proč -->
+			<div class="col-left">
+				
+				<h2 class="block-text__title">Proč jet na Island</h2>
 
-	<p>Pociťujete tu zvláštní volnost. Mimo tří větších měst, kde je soustředěna drtivá většina obyvatel, můžete projíždět krajinou stovky kilometrů a čas od času potkáte jen osamělou usedlost, obklopenou stády koní a ovcí. Na jižním pobřeží když už narazíte na vesnici, jedná se o seskupení usedlostí, jejichž počet byste kolikrát spočítali na prstech jedné ruky a samozřejmě nesmí chybět benzínová pumpa. Právě čerpací stanice jsou zde centrem dění.</p>
+				<p>Island je domovem největšího evropského ledovce, vodopádu s nejmohutnějším průtokem a tisíců místních koní a divokých hus, které majestátně ve dvojicích křižují nebe a dokreslují tak neopakovatelnou atmosféru tohoto pozoruhodného kousku pevniny kdesi v Atlantiku. K tomu mohutné skalní útvary, čnící z moře jako tiší strážci místních černých lávových pláží, stovky metrů vysoké útesy, které jsou domovem racků a papuchalků a především obrovské vodopády všeho druhu. Panují tu trochu jiná měřítka, a to téměř ve všem.</p>
 
-	<p>Severní pobřeží je pak místy opravdová divočina, už tak mizivé osídlení ještě více prořídne a vy projíždíte místní fjordy po šotolinových cestách, aniž byste hodiny potkali jediné auto. Nad hlavou vám ční vysoké hory pokryté věčným sněhem, každým údolím se v kaskádách a vodopádech řítí dolů řeky, prostě divočina zamrznutá v čase. Dostane se vám to tu pod kůži a nutí Vás to přemýšlet, jak je ve skutečnosti člověk maličký a nicotný&hellip;</p>
+				<p>Pociťujete tu zvláštní volnost. Mimo tří větších měst, kde je soustředěna drtivá většina obyvatel, můžete projíždět krajinou stovky kilometrů a čas od času potkáte jen osamělou usedlost, obklopenou stády koní a ovcí. Na jižním pobřeží když už narazíte na vesnici, jedná se o seskupení usedlostí, jejichž počet byste kolikrát spočítali na prstech jedné ruky a samozřejmě nesmí chybět benzínová pumpa. Právě čerpací stanice jsou zde centrem dění.</p>
 
+				<p>Severní pobřeží je pak místy opravdová divočina, už tak mizivé osídlení ještě více prořídne a vy projíždíte místní fjordy po šotolinových cestách, aniž byste hodiny potkali jediné auto. Nad hlavou vám ční vysoké hory pokryté věčným sněhem, každým údolím se v kaskádách a vodopádech řítí dolů řeky, prostě divočina zamrznutá v čase. Dostane se vám to tu pod kůži a nutí Vás to přemýšlet, jak je ve skutečnosti člověk maličký a nicotný&hellip;</p>
+			
+			</div>
 
-	<img src="images/island2.jpg" alt="Island">
-	<p>Photo &copy; <a href="https://flic.kr/p/yiAg2h">Moyan Brenn</a></p>
+		</section>
 
+		<section class="grid block-image">
 
-	<!-- sekce Co musíte vidět -->
+			<img class="block-image__img" src="images/island2.jpg" alt="Island">
 
-	<h2>Co musíte vidět</h2>
+			<div class="block-image--position">
+				<p class="block-image__text">Photo &copy; <a class="block-image__link" href="https://flic.kr/p/yiAg2h">Moyan Brenn</a></p>
+			</div>
 
-	<p><strong>Poloostrov Reykjanes</strong> - Než z letiště v Keflavíku zamíříte do hlavního města, zajeďte se podívat na tento poloostrov. Je to zajížďka jen pár kilometrů a rázem se dostanete do krajiny pro Island přímo typické. Cestu lemují lávová pole připomínající doslova měsíční krajinu. Pro Středoevropana něco neuvěřitelného. Ani kousek zeleně, kam oko dohlédne jen černá suť a rozpraskané lávové desky. Mezi tím vším až mysteriózně vypadající geotermální elektrárny. Na pobřeží pak vystupují z vody poutavé skalní útvary Reykjanesta.</p>
+		</section>
 
-	<p><strong>Reykjavík</strong> - Hlavní město určitě nevynecháte kvůli doplnění proviantu. Za zmínku stojí zajímavě architektonicky řešený kostel Hallgrímskirkja, centrum města a přístav se svou výstavbou začínají podobat všem vyspělým velkoměstům v Evropě a příliš milovníky severu neosloví. Zavítáte-li však do spleti uliček pod katedrálou, nebudete litovat, ty už atmosféru mají.</p>
+		<section class="grid-text block-text" id="coVidet"> 
 
-	<p><strong>Gullfoss</strong> - Vodopádové menu začínáme u kaskádovitého vodopádu na řece Hvítá. Postavit se na hranu mezi kaskádami a hledět do té masy vody, řítící se do kaňonu pod vámi je vážně zážitek&hellip;</p>
+			<!-- sekce Co musíte vidět -->
+			<div class="col-right">
+				
+				<h2 class="block-text__title">Co musíte vidět</h2>
 
-	<p><strong>Geysir</strong> - Kousek od Gullfossu je oblast, která turisty přitahuje jako magnet. Geysir, který dal název všem ostatním gejzírům světa. On sám se však již téměř odmlčel, údajně chrlí vodu jen velmi zřídka. Zato jeho menší a mladší soused, pojmenovaný Strokkur, prská do okolí vařící sloupec vody v méně či více pravidelných intervalech každých pár minut.</p>
+				<p><strong>Poloostrov Reykjanes</strong> - Než z letiště v Keflavíku zamíříte do hlavního města, zajeďte se podívat na tento poloostrov. Je to zajížďka jen pár kilometrů a rázem se dostanete do krajiny pro Island přímo typické. Cestu lemují lávová pole připomínající doslova měsíční krajinu. Pro Středoevropana něco neuvěřitelného. Ani kousek zeleně, kam oko dohlédne jen černá suť a rozpraskané lávové desky. Mezi tím vším až mysteriózně vypadající geotermální elektrárny. Na pobřeží pak vystupují z vody poutavé skalní útvary Reykjanesta.</p>
 
-	<p><strong>Seljalandsfoss</strong> - To už jsme na jižním pobřeží. Tento 60 metrů vysoký vodopád je výjimečný především tím, že se na něho můžete podívat nejen shora, ze stran, ale také jej obejít a hledět do okolní krajiny přes masy vody, které kolem Vás padají.</p>
+				<p><strong>Reykjavík</strong> - Hlavní město určitě nevynecháte kvůli doplnění proviantu. Za zmínku stojí zajímavě architektonicky řešený kostel Hallgrímskirkja, centrum města a přístav se svou výstavbou začínají podobat všem vyspělým velkoměstům v Evropě a příliš milovníky severu neosloví. Zavítáte-li však do spleti uliček pod katedrálou, nebudete litovat, ty už atmosféru mají.</p>
 
-	<img src="images/island3.jpg" alt="Island">
-	<p>Photo &copy; <a href="https://flic.kr/p/LfcKHP">Yiannis Chatzitheodorou</a></p>
+				<p><strong>Gullfoss</strong> - Vodopádové menu začínáme u kaskádovitého vodopádu na řece Hvítá. Postavit se na hranu mezi kaskádami a hledět do té masy vody, řítící se do kaňonu pod vámi je vážně zážitek&hellip;</p>
 
+				<p><strong>Geysir</strong> - Kousek od Gullfossu je oblast, která turisty přitahuje jako magnet. Geysir, který dal název všem ostatním gejzírům světa. On sám se však již téměř odmlčel, údajně chrlí vodu jen velmi zřídka. Zato jeho menší a mladší soused, pojmenovaný Strokkur, prská do okolí vařící sloupec vody v méně či více pravidelných intervalech každých pár minut.</p>
 
-	<!-- změna strany, aby to celé bylo hezčí :) -->
+				<p><strong>Seljalandsfoss</strong> - To už jsme na jižním pobřeží. Tento 60 metrů vysoký vodopád je výjimečný především tím, že se na něho můžete podívat nejen shora, ze stran, ale také jej obejít a hledět do okolní krajiny přes masy vody, které kolem Vás padají.</p>
+			
+			</div>
 
-	<p><strong>Skógafoss</strong> - Ať si koupíte jakoukoliv mapu nebo průvodce Islandu, jsem si téměř jist, že na titulce bude právě Skógafoss. Nutno říct, že právem. Výška 60 metrů, šířka 25 metrů, zážitek neuvěřitelný. Jakmile trochu zasvítí slunce, okamžitě se ve vodní tříšti v okolí vytváří krásná duha. Samozřejmě opět přitahuje spoustu turistů, takže doporučuji navštívit tuto hříčku přírody někdy pozdě večer či brzy ráno, kdy tu budete téměř sami, opravdu se to vyplatí.</p>
+		</section>
 
-	<p><strong>Dyrhólaey</strong> - Jde o nejjižnější cíp celého strova s vysokými útesy, na kterých ční jako tichý strážce velmi fotogenický maják. Zdejší útesy jsou také domovem Papuchalků (Fratercula arctica). Tito ptáci jsou opravdoví klauni a jejich nemotorný pohyb prostě musí vykouzlit úsměv na tváři každému. Mohutný lávový útes, ve kterém voda vyhloubila dvě skalní brány nebývalých rozměrů, prostě nesmíte vynechat.</p>
+		<section class="grid block-image">
 
+			<img class="block-image__img" src="images/island3.jpg" alt="Island">
 
+			<div class="block-image--position">
+				<p class="block-image__text">Photo &copy; <a class="block-image__link" href="https://flic.kr/p/LfcKHP">Yiannis Chatzitheodorou</a></p>
+			</div>
 
-	<!-- sekce Fotogalerie -->
+		</section>
 
-	<h2>Fotogalerie</h2>
+		<section class="grid-text block-text"> 
 
-	<!-- foto 1 -->
-	<img src="images/nahled1.jpg" alt="Myvatn Aurora">
-	<p>
-		Myvatn Aurora<br>
-		Photo &copy; <a href="https://flic.kr/p/GN5utm">Kriss Williams</a>
-	</p>
+			<!-- změna strany, aby to celé bylo hezčí :) -->
+			<div class="col-right">
+				
+				<p><strong>Skógafoss</strong> - Ať si koupíte jakoukoliv mapu nebo průvodce Islandu, jsem si téměř jist, že na titulce bude právě Skógafoss. Nutno říct, že právem. Výška 60 metrů, šířka 25 metrů, zážitek neuvěřitelný. Jakmile trochu zasvítí slunce, okamžitě se ve vodní tříšti v okolí vytváří krásná duha. Samozřejmě opět přitahuje spoustu turistů, takže doporučuji navštívit tuto hříčku přírody někdy pozdě večer či brzy ráno, kdy tu budete téměř sami, opravdu se to vyplatí.</p>
 
+				<p><strong>Dyrhólaey</strong> - Jde o nejjižnější cíp celého strova s vysokými útesy, na kterých ční jako tichý strážce velmi fotogenický maják. Zdejší útesy jsou také domovem Papuchalků (Fratercula arctica). Tito ptáci jsou opravdoví klauni a jejich nemotorný pohyb prostě musí vykouzlit úsměv na tváři každému. Mohutný lávový útes, ve kterém voda vyhloubila dvě skalní brány nebývalých rozměrů, prostě nesmíte vynechat.</p>
 
-	<!-- foto 2 -->
-	<img src="images/nahled2.jpg" alt="Mountains in Iceland">
-	<p>
-		Mountains in Iceland<br>
-		Photo &copy; <a href="https://flic.kr/p/qCC5fd">Kamil Porembiński</a>
-	</p>
+			</div>
 
+		</section>
 
-	<!-- foto 3 -->
-	<img src="images/nahled3.jpg" alt="Life on Mars">
-	<p>
-		Life on Mars<br>
-		Photo &copy; <a href="https://flic.kr/p/DrxutX">Kriss Williams</a>
-	</p>
+		<!-- sekce Fotogalerie -->
+		<section class="section-gallery" id="fotogalerie">
 
+			<h2 class="block-text block-text__title title-gallery">Fotogalerie</h2>
 
-	<!-- foto 4 -->
-	<img src="images/nahled4.jpg" alt="Stokksnes Sands">
-	<p>
-		Stokksnes Sands<br>
-		Photo &copy; <a href="https://flic.kr/p/vzopTG">Kriss Williams</a>
-	</p>
+			<div class="grid-gallery">
 
+				<!-- foto 1 -->
+				<div class="gallery">
+					
+					<img class="gallery__img" src="images/nahled1.jpg" alt="Myvatn Aurora">
+					<div class="gallery__description">
+						<p class="gallery__title">Myvatn Aurora</p>
+						<p class="gallery__copy">Photo &copy; <a class="gallery__link" href="https://flic.kr/p/GN5utm">Kriss Williams</a></p>
+					</div>
 
-	<!-- foto 5 -->
-	<img src="images/nahled5.jpg" alt="Svartifoss (Black Fall)">
-	<p>
-		Svartifoss (Black Fall)<br>
-		Photo &copy; <a href="https://flic.kr/p/v5Butv">Ron Kroetz</a>
-	</p>
+				</div>
 
+				<!-- foto 2 -->
+				<div class="gallery">
 
-	<!-- foto 6 -->
-	<img src="images/nahled6.jpg" alt="Landmannalaugar">
-	<p>
-		Landmannalaugar<br>
-		Photo &copy; <a href="https://flic.kr/p/2SWHDd">Michel Osmont</a>
-	</p>
+					<img class="gallery__img" src="images/nahled2.jpg" alt="Mountains in Iceland">
+					<div class="gallery__description">
+						<p class="gallery__title">Mountains in Iceland</p>
+						<p class="gallery__copy" >Photo &copy; <a class="gallery__link" href="https://flic.kr/p/qCC5fd">Kamil Porembiński</a></p>	
+					</div>
 
+				</div>
 
-	<!-- foto 7 -->
-	<img src="images/nahled7.jpg" alt="Iceland">
-	<p>
-		Iceland<br>
-		Photo &copy; <a href="https://flic.kr/p/aaqZLk">Eric Montford</a>
-	</p>
+				<!-- foto 3 -->
+				<div class="gallery">
 
+					<img class="gallery__img" src="images/nahled3.jpg" alt="Life on Mars">
+					<div class="gallery__description">
+						<p class="gallery__title">Life on Mars</p>
+						<p class="gallery__copy" >Photo &copy; <a class="gallery__link" href="https://flic.kr/p/DrxutX">Kriss Williams</a></p>
+					</div>
 
-	<!-- foto 8 -->
-	<img src="images/nahled8.jpg" alt="Bruarfoss waterfalls">
-	<p>
-		Bruarfoss waterfalls<br>
-		Photo &copy; <a href="https://flic.kr/p/nuUQM7">Moyan Brenn</a>
-	</p>
+				</div>
 
+				<!-- foto 4 -->
+				<div class="gallery">
 
-	<!-- foto 9 -->
-	<img src="images/nahled9.jpg" alt="Jokulsarlon glacier lagoon">
-	<p>
-		Jokulsarlon glacier lagoon<br>
-		Photo &copy; <a href="https://flic.kr/p/getEgS">Moyan Brenn</a>
-	</p>
+					<img class="gallery__img" src="images/nahled4.jpg" alt="Stokksnes Sands">
+					<div class="gallery__description">
+						<p class="gallery__title">Stokksnes Sands</p>
+						<p class="gallery__copy" >Photo &copy; <a class="gallery__link" href="https://flic.kr/p/vzopTG">Kriss Williams</a></p>
+					</div>
 
+				</div>
 
+				<!-- foto 5 -->
+				<div class="gallery">
+
+					<img class="gallery__img" src="images/nahled5.jpg" alt="Svartifoss (Black Fall)">
+					<div class="gallery__description">
+						<p class="gallery__title">Svartifoss (Black Fall)</p>
+						<p class="gallery__copy">Photo &copy; <a class="gallery__link" href="https://flic.kr/p/v5Butv">Ron Kroetz</a></p>	
+					</div>	
+					
+				</div>
+
+				<!-- foto 6 -->
+				<div class="gallery">
+
+					<img class="gallery__img" src="images/nahled6.jpg" alt="Landmannalaugar">
+					<div class="gallery__description">
+						<p class="gallery__title">Landmannalaugar</p>
+						<p class="gallery__copy">Photo &copy; <a class="gallery__link" href="https://flic.kr/p/2SWHDd">Michel Osmont</a></p>	
+					</div>
+
+				</div>
+
+				<!-- foto 7 -->
+				<div class="gallery">
+
+					<img class="gallery__img" src="images/nahled7.jpg" alt="Iceland">
+					<div class="gallery__description">
+						<p class="gallery__title">Iceland</p>
+						<p class="gallery__copy">Photo &copy; <a class="gallery__link" href="https://flic.kr/p/aaqZLk">Eric Montford</a></p>	
+					</div>
+
+				</div>
+
+				<!-- foto 8 -->
+				<div class="gallery">
+
+					<img class="gallery__img" src="images/nahled8.jpg" alt="Bruarfoss waterfalls">
+					<div class="gallery__description">
+						<p class="gallery__title">Bruarfoss waterfalls</p>
+						<p class="gallery__copy">Photo &copy; <a class="gallery__link" href="https://flic.kr/p/nuUQM7">Moyan Brenn</a></p>	
+					</div>
+					
+				</div>
+
+				<!-- foto 9 -->
+				<div class="gallery">
+
+					<img class="gallery__img" src="images/nahled9.jpg" alt="Jokulsarlon glacier lagoon">
+					<div class="gallery__description">
+						<p class="gallery__title">Jokulsarlon glacier lagoon</p>
+						<p class="gallery__copy">Photo &copy; <a class="gallery__link" href="https://flic.kr/p/getEgS">Moyan Brenn</a></p>	
+					</div>		
+					
+				</div>
+
+			</div>
+
+		</section>
+
+	</main>
 
 
 	<!-- patička -->
+	<footer class="footer">
+		<p>
+			Texty převzaty z článků:<br>
+			Roman Pech - <a href="http://cestovani.idnes.cz/island-a-roman-pech-0nh-/kolem-sveta.aspx?c=A140519_125122_kolem-sveta_tom">Závislost jménem Island. Tipy znalce, jak zemi levně procestovat</a><br>
+			Michal Balada - <a href="http://www.pohora.cz/tipy-na-vylety/16352-cesta-kolem-islandu-za-10-dni/">Cesta kolem Islandu za 10 dní</a>
+		</p>
 
-	<p>
-		Texty převzaty z článků:<br>
-		Roman Pech - <a href="http://cestovani.idnes.cz/island-a-roman-pech-0nh-/kolem-sveta.aspx?c=A140519_125122_kolem-sveta_tom">Závislost jménem Island. Tipy znalce, jak zemi levně procestovat</a><br>
-		Michal Balada - <a href="http://www.pohora.cz/tipy-na-vylety/16352-cesta-kolem-islandu-za-10-dni/">Cesta kolem Islandu za 10 dní</a>
-	</p>
-
-	<p>
-		Úvodní fotografie &copy; <a href="https://flic.kr/p/gett4S">Moyan Brenn</a>
-	</p>
-
+		<p>
+			Úvodní fotografie &copy; <a href="https://flic.kr/p/gett4S">Moyan Brenn</a>
+		</p>
+	</footer>
 
 </body>
 </html>
