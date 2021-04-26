@@ -41,7 +41,7 @@ main {
   }
 }
 
-.bg-images {
+.bg-image {
   background-color: #101d25;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./../images/island-hlavicka.jpg) no-repeat center/cover;
 }
@@ -93,7 +93,7 @@ main {
 }
 
 .menu {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 0;
 }
 @media screen and (min-width: 960px) {
   .menu {
@@ -159,7 +159,7 @@ main {
 }
 @media screen and (min-width: 540px) {
   .block-text {
-    padding: 0 30px 20px 30px;
+    padding: 20px 30px;
   }
 }
 .block-text__title {
@@ -302,24 +302,23 @@ main {
 /*FOOTER*/
 /*GRID min-width: 960px*/
 @media screen and (min-width: 960px) {
-  .grid-top {
-    display: grid;
-    grid-template-columns: 2fr 4fr;
-    padding: 40px 10px 0 10px;
-  }
-
   .grid-text {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 40px;
   }
 
+  .col-menu {
+    grid-column: 1;
+    padding: 0 50px 0 0;
+  }
+
   .col-left {
-    grid-column: 1/span 4;
+    grid-column: 1/span 2;
   }
 
   .col-right {
-    grid-column: 3/span 4;
+    grid-column: 2/span 2;
   }
 
   .block-text__title::after {
