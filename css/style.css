@@ -43,7 +43,7 @@ main {
 
 .bg-images {
   background-color: #101d25;
-  background: linear-gradient(#101d258e, #101d252c), url(/images/island-hlavicka.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./../images/island-hlavicka.jpg) no-repeat center/cover;
 }
 
 .hero {
